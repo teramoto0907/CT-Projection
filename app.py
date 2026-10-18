@@ -13,7 +13,7 @@ matplotlib.rcParams["font.family"] = ["DejaVu Sans", "sans-serif"]
 IMAGE_SIZE = 256
 ARROW_RADIUS = IMAGE_SIZE * 0.43
 ARROW_LENGTH = IMAGE_SIZE * 0.09
-ANIMATION_DELAY = 0.03
+ANIMATION_DELAY = 0.01
 
 st.set_page_config(page_title="CT投影デモ", layout="wide")
 st.title("CT投影デモ：Shepp–Loganファントムとサイノグラム")
